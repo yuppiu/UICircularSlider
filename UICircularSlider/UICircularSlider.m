@@ -133,8 +133,8 @@
 
 /** @name Drawing methods */
 #pragma mark - Drawing methods
-#define kLineWidth 5.0
-#define kThumbRadius 12.0
+#define kLineWidth 16.0
+#define kThumbRadius 16.0
 - (CGFloat)sliderRadius {
 	CGFloat radius = MIN(self.bounds.size.width/2, self.bounds.size.height/2);
 	radius -= MAX(kLineWidth, kThumbRadius);	
