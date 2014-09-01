@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
   spec.name             = 'UICircularSlider'
   spec.version          = '1.0.3'
-  spec.license          = { :type => 'MIT', :file => 'LICENSE' }
+  spec.license          = { :type => 'MIT' }
   spec.homepage         = 'https://github.com/yuppiu/UICircularSlider'
   spec.authors          = { "Zedenem" => "zouhair.mahieddine@gmail.com" }
   spec.summary          = 'An iOS UISlider which displays value in a circle / pie.'
